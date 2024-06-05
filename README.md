@@ -9,4 +9,7 @@ for Demo purposes
 5. I will open my vscode Terminal and type the command `git status`.This command will show me the changes i have made in the various files.
 `pwd` - prints the current directory/folder we are in.
 6. Now I need to stage these changes i have made so I will type the command `git add .` or `git add *`.
-
+7. After staging I will commit by the command `git commit -m "the commit message"` for my case the commit message is `update of readme since i have made changes to readme file`.So my final command will be. `git commit -m "Update Readme file"`
+8. I need to push. So I will type the command `git push origin <branch name>`. To check my current branch I type the command `git branch`
+9. Now my final command will be `git push origin master`
+10. To check , I will go the repo I created in Git and see the changes.Some changes might not reflect since I need to do a final push for the changes made after step 9
